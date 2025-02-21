@@ -1,0 +1,111 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #FBFFE4;
+    color: #333;
+
+
+
+}
+
+header{
+background: #3D8D7A;
+color: #FBFFE4;
+padding: 1.5rem 0;
+text-align: center;
+
+
+}
+
+header h1{
+    margin: 0;
+    font-size: 2rem;
+
+}
+footer{
+    background: #3D8D7A;
+    color: #FBFFE4;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+
+}
+main{
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 1rem;
+}
+
+section{
+    background: #B3D8A8;
+    margin: 1rem 0;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+section h2{
+    color: #3D8D7A;
+    margin-top: 0;
+
+}
+
+a{
+    color: #3D8D7A;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+a:hover{
+    color: #A3D1C6;
+    text-decoration: underline;
+}
+
+.social-links{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+
+}
+
+.social-icon{
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s ease;
+    background-color: #A3D1C6;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+.social-icon:hover{
+    transform: scale(1.2);
+}
+
+#projeler ul{
+    list-style: none;
+    padding: 0;
+}
+#projeler li{
+    margin: 0.5rem 0;
+}
+#projeler a{
+    display: inline-block;
+    color: #3D8D7A;
+    background-color: #FBFFE4; /* Fildişi beyazı arka plan */
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+
+    transition: color 0.3s ease,transform 0.3s ease;
+
+}
+#projeler a:hover{
+    background-color: #3D8D7A; /* Aqua hover arka planı */
+    color: #FBFFE4; /* Beyaz metin */
+    transform: translateX(1rem);
+    
+    
+}
+h1,h2{
+    text-align: center;
+}
